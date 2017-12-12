@@ -2,7 +2,6 @@
 import React from 'react';
 import Trend from 'react-trend';
 
-
 // Local Dependencies
 import MEMBERSHIP_DATA from '../shared/membership-data';
 
@@ -10,10 +9,10 @@ import MEMBERSHIP_DATA from '../shared/membership-data';
 const membershipRawNumbers = MEMBERSHIP_DATA.map(meetup => meetup.y);
 
 const trendRootStyles = {
+  backgroundColor: '#eee',
   border: '2px solid #222',
   borderRadius: '4px',
   margin: 32,
-  backgroundColor: '#eee',
 };
 
 // Component Definition
@@ -26,9 +25,11 @@ const MembershipTrend = () => {
         autoDrawDuration={3000}
         autoDrawEasing="ease-out"
         data={membershipRawNumbers}
-        radius={20}
-        strokeWidth={2}
         gradient={['darkslateblue', 'purple', 'violet']}
+        radius={1000}
+        smooth
+        strokeWidth={2}
+        strokeLinecap={'round'}
       />
     </div>
   );

@@ -4,25 +4,49 @@
 
 .app-logo {
   animation: app-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 48px;
 }
 
-.app-header {
+.app-logo-2 {
+  animation: app-logo-spin-2 infinite 20s linear;
+  height: 48px;
+}
+
+.app-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #222;
   height: 150px;
   padding: 20px;
   color: white;
+  font-size: 18px;
+}
+
+.app-footer a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #81D4FA;
+}
+
+.app-footer a:visited {
+  color: #81D4FA;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
 }
 
 .app-title {
   font-size: 1.5em;
 }
 
-.app-intro {
-  font-size: large;
-}
-
 @keyframes app-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+@keyframes app-logo-spin-2 {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
 }

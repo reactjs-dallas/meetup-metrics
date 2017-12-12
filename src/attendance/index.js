@@ -7,39 +7,38 @@ import FaceIcon from 'material-ui-icons/Face';
 import grey from 'material-ui/colors/grey';
 import { withStyles } from 'material-ui/styles';
 
-
 // Local Dependencies
 import AttendanceDialog from './dialog-attendance';
 import december2017data from '../shared/december2017data';
 
-
 // Local Variables
 const styles = theme => ({
   attendanceSection: {
-    display: 'flex',
-    justifyContent: 'center',
-    flexWrap: 'wrap',
+    alignItems: 'center',
     border: '2px solid cornflowerblue',
     borderRadius: '4px',
-    margin: 32,
-    paddingTop: 0,
-    padding: 32,
-  },
-  buttonRow: {
     display: 'flex',
+    flexDirection: 'column',
+    flexWrap: 'wrap',
     justifyContent: 'center',
+    margin: 32,
+    padding: 32,
+    paddingTop: 0,
+  },
+  button: {
+    marginTop: 24,
   },
   chip: {
     margin: 6,
   },
+  row: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    width: 600,
+  },
   svgIcon: {
     color: grey[800],
-  },
-  row: {
-    width: 400,
-    display: 'flex',
-    justifyContent: 'center',
-    flexWrap: 'wrap',
   },
 });
 
@@ -67,26 +66,30 @@ class Attendance extends Component {
 
     return (
       <section className={classes.attendanceSection}>
+        <h1>December 2017 @ Tail Light</h1>
         <div className={classes.row}>
-          <h1>December 2017 @ Tail Light</h1>
-          {december2017data.map(dev => {
-            console.log('dev', dev);
-            return (
-              <Chip
-                avatar={
-                  <Avatar>
-                    <FaceIcon className={classes.svgIcon} />
-                  </Avatar>
-                }
-                className={classes.chip}
-                key={dev.name}
-                label={dev.name}
-              />
-            );
-          })}
+          {december2017data.map(dev => (
+            <Chip
+              avatar={
+                <Avatar>
+                  <FaceIcon className={classes.svgIcon} />
+                </Avatar>
+              }
+              className={classes.chip}
+              key={dev.name}
+              label={dev.name}
+            />
+          ))}
         </div>
-        <div className={classes.buttonRow}>
-          <Button raised onClick={this.handleClickOpen}>Open Meetup Details</Button>
+        <div className={classes.row}>
+          <Button
+            className={classes.button}
+            color="primary"
+            onClick={this.handleClickOpenDialog}
+            raised
+          >
+            Open Meetup Details
+          </Button>
         </div>
         <AttendanceDialog
           isOpen={isOpen}
