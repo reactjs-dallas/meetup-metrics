@@ -17,31 +17,6 @@ const december2017data = [
     about: 'yah',
   },
   {
-    name: 'Dallas Mavericks',
-    twitter: 'dallasmavs',
-    about: 'DIIIIIIIIIIIIIIIIIIIIIIIIIIIIRK!',
-  },
-  {
-    name: 'Dallas Stars',
-    twitter: 'DallasStars',
-    about: 'Hat tricks a plenty',
-  },
-  {
-    name: 'Dallas Cowboys',
-    twitter: 'dallascowboys',
-    about: 'America\'s team for American-style football',
-  },
-  {
-    name: 'Texas Rangers',
-    twitter: 'Rangers',
-    about: 'Bases-ball',
-  },
-  {
-    name: 'FC Dallas',
-    twitter: 'FCDallas',
-    about: 'Real football',
-  },
-  {
     name: 'Chris Kee',
     twitter: 'chriskeephoto',
     about: 'Guitar!',
