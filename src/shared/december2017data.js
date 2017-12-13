@@ -36,6 +36,11 @@ const december2017data = [
     twitter: 'FCDallas',
     about: 'Real football',
   },
+  {
+    name: 'Chris Kee',
+    twitter: 'chriskeephoto',
+    about: 'Guitar!',
+  },
 ];
 
 export default december2017data;
