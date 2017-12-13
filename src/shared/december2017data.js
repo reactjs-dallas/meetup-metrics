@@ -35,7 +35,12 @@ const december2017data = [
     name: 'FC Dallas',
     twitter: 'FCDallas',
     about: 'Real football',
-  },
+  }, 
+  {
+    name: 'Spencer Smith',
+    twitter: 'none',
+    about: 'Also Real football'
+  }
 ];
 
 export default december2017data;
