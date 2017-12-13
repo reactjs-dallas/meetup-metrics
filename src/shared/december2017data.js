@@ -40,6 +40,11 @@ const december2017data = [
     name: 'Connor Bryan',
     twitter: false,
     about: 'Software & music'
+  },
+  {
+    name: 'Maria Bazhlekova',
+    twitter: '',
+    about: 'Board game cruise'
   }
 ];
 
