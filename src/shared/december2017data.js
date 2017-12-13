@@ -41,6 +41,11 @@ const december2017data = [
     name: "Bryce Hull",
     twitter: "BryceHull1",
     about: "New to React Js Dallas"
+  },
+  {
+    name: "Connor Bryan",
+    twitter: false,
+    about: "Software & music"
   }
 ];
 
