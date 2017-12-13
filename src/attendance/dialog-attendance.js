@@ -1,17 +1,22 @@
 // External Dependencies
-import React from 'react';
-import AppBar from 'material-ui/AppBar';
-import CloseIcon from 'material-ui-icons/Close';
-import Dialog from 'material-ui/Dialog';
-import IconButton from 'material-ui/IconButton';
-import Slide from 'material-ui/transitions/Slide';
-import Table, { TableBody, TableCell, TableHead, TableRow } from 'material-ui/Table';
-import Toolbar from 'material-ui/Toolbar';
-import Typography from 'material-ui/Typography';
-import { withStyles } from 'material-ui/styles';
+import React from "react";
+import AppBar from "material-ui/AppBar";
+import CloseIcon from "material-ui-icons/Close";
+import Dialog from "material-ui/Dialog";
+import IconButton from "material-ui/IconButton";
+import Slide from "material-ui/transitions/Slide";
+import Table, {
+  TableBody,
+  TableCell,
+  TableHead,
+  TableRow
+} from "material-ui/Table";
+import Toolbar from "material-ui/Toolbar";
+import Typography from "material-ui/Typography";
+import { withStyles } from "material-ui/styles";
 
 // Local Dependencies
-import december2017data from '../shared/december2017data';
+import december2017data from "../shared/december2017data";
 
 // Local Functions
 function Transition(props) {
@@ -21,20 +26,21 @@ function Transition(props) {
 // Local Variables
 const styles = theme => ({
   appBar: {
-    position: 'relative',
+    position: "relative"
   },
   table: {
-    minWidth: 700,
-  },
+    minWidth: 700
+  }
 });
 
-
 // Component Definition
-const AttendanceDialog = (props) => {
+const AttendanceDialog = props => {
+  console.log(props);
   const {
     classes,
     isOpen,
     onRequestCloseDialog,
+    handleClickOpenDialog
   } = props;
 
   return (
@@ -46,7 +52,11 @@ const AttendanceDialog = (props) => {
     >
       <AppBar className={classes.appBar}>
         <Toolbar>
-          <IconButton color="contrast" onClick={this.handleRequestClose} aria-label="Close">
+          <IconButton
+            color="contrast"
+            onClick={handleClickOpenDialog}
+            aria-label="Close"
+          >
             <CloseIcon />
           </IconButton>
           <Typography type="title" color="inherit" className={classes.flex}>
