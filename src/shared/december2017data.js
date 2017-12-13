@@ -61,6 +61,11 @@ const december2017data = [
     twitter: '',
     about: 'Board game cruise'
   },
+  {
+    name: 'Eric Patterson',
+    linkedin: 'https://www.linkedin.com/in/eric-patterson/',
+    about: 'Like\'s cookin up some code'
+  },
 ];
 
 export default december2017data;
