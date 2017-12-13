@@ -94,6 +94,7 @@ const MEMBERSHIP_DATA = [
   { x: '15-Nov-2017', y: 1011 },
   { x: '29-Nov-2017', y: 1020 },
   { x: '6-Dec-2017', y: 1040 },
+  { x: '13-Dec-2017', y: 1060 },
 ];
 
 export default MEMBERSHIP_DATA;
