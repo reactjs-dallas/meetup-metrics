@@ -12,6 +12,11 @@ const december2017data = [
     about: 'We host events and make sure devs get both knowledge and pizza.',
   },
   {
+    name: 'Jose Flores',
+    twitter: 'joseflores_io',
+    about: 'yah',
+  },
+  {
     name: 'Dallas Mavericks',
     twitter: 'dallasmavs',
     about: 'DIIIIIIIIIIIIIIIIIIIIIIIIIIIIRK!',
@@ -40,6 +45,26 @@ const december2017data = [
     name: 'Chris Kee',
     twitter: 'chriskeephoto',
     about: 'Guitar!',
+  },
+  {
+    name: 'Joel Lee',
+    twitter: 'Highflierinvest',
+    about: 'DFW Area Real Estate Investor'
+  },
+  {
+    name: 'Connor Bryan',
+    twitter: false,
+    about: 'Software & music'
+  },
+  {
+    name: 'Maria Bazhlekova',
+    twitter: '',
+    about: 'Board game cruise'
+  },
+  {
+    name: 'Eric Patterson',
+    linkedin: 'https://www.linkedin.com/in/eric-patterson/',
+    about: 'Like\'s cookin up some code'
   },
 ];
 
