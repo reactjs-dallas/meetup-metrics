@@ -20,12 +20,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KingJavaJava/meetup-metrics.git"
+    "url": "https://github.com/m2mathew/meetup-metrics#readme"
   },
-  "author": "rex orioko",
-  "license": "ISC",
+  "author": "Mike Mathew",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KingJavaJava/meetup-metrics/issues"
+    "url": "https://github.com/m2mathew/meetup-metrics/issues"
   },
-  "homepage": "https://github.com/KingJavaJava/meetup-metrics#readme"
+  "homepage": "https://github.com/m2mathew/meetup-metrics#readme"
 }
