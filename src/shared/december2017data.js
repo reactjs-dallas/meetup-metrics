@@ -37,6 +37,11 @@ const december2017data = [
     about: 'Real football',
   },
   {
+    name: 'Connor Bryan',
+    twitter: false,
+    about: 'Software & music'
+  },
+  {
     name: 'Eric Patterson',
     linkedin: 'https://www.linkedin.com/in/eric-patterson/',
     about: 'Like\'s cookin up some code'
