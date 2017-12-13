@@ -40,6 +40,11 @@ const december2017data = [
     name: 'Joel Lee',
     twitter: 'Highflierinvest',
     about: 'DFW Area Real Estate Investor'
+  },
+  {
+    name: 'Connor Bryan',
+    twitter: false,
+    about: 'Software & music'
   }
 ];
 
