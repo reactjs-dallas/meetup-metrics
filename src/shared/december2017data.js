@@ -57,6 +57,11 @@ const december2017data = [
     about: 'Software & music'
   },
   {
+    name: 'Howard Huang',
+    twitter: null,
+    about: 'VS Code!'
+  },
+  {
     name: 'Maria Bazhlekova',
     twitter: '',
     about: 'Board game cruise'
