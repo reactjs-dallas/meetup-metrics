@@ -12,6 +12,11 @@ const december2017data = [
     about: 'We host events and make sure devs get both knowledge and pizza.',
   },
   {
+    name: 'Jose Flores',
+    twitter: 'joseflores_io',
+    about: 'yah',
+  },
+  {
     name: 'Dallas Mavericks',
     twitter: 'dallasmavs',
     about: 'DIIIIIIIIIIIIIIIIIIIIIIIIIIIIRK!',
@@ -40,6 +45,11 @@ const december2017data = [
     name: 'Connor Bryan',
     twitter: false,
     about: 'Software & music'
+  },
+  {
+    name: 'Maria Bazhlekova',
+    twitter: '',
+    about: 'Board game cruise'
   },
   {
     name: 'Eric Patterson',
