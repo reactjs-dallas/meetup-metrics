@@ -36,6 +36,11 @@ const december2017data = [
     twitter: 'FCDallas',
     about: 'Real football',
   },
+  {
+    name: 'Rex Orioko',
+    twitter: 'Kuuuuulio',
+    about: 'Soccer Life',
+  },
 ];
 
 export default december2017data;

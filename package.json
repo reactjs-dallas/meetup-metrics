@@ -15,5 +15,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "A fun and interactive way to do a roll call of those fancy hipsters from the Dallas React scene.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingJavaJava/meetup-metrics.git"
+  },
+  "author": "rex orioko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KingJavaJava/meetup-metrics/issues"
+  },
+  "homepage": "https://github.com/KingJavaJava/meetup-metrics#readme"
 }
