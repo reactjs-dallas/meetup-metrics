@@ -36,6 +36,11 @@ const december2017data = [
     twitter: 'FCDallas',
     about: 'Real football',
   },
+  {
+    name: 'Connor Bryan',
+    twitter: false,
+    about: 'Software & music'
+  }
 ];
 
 export default december2017data;
