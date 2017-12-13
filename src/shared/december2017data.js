@@ -40,14 +40,11 @@ const december2017data = [
     name: 'FC Dallas',
     twitter: 'FCDallas',
     about: 'Real football',
-<<<<<<< HEAD
   }, 
   {
     name: 'Spencer Smith',
     twitter: 'none',
-    about: 'Also Real football'
-  }
-=======
+    about: 'Also Real football' 
   },
   {
     name: 'Joel Lee',
@@ -69,7 +66,6 @@ const december2017data = [
     linkedin: 'https://www.linkedin.com/in/eric-patterson/',
     about: 'Like\'s cookin up some code'
   },
->>>>>>> 5565d46324fd3951bb54b39e8a73d59c6aa56acd
 ];
 
 export default december2017data;
