@@ -12,6 +12,11 @@ const december2017data = [
     about: 'We host events and make sure devs get both knowledge and pizza.',
   },
   {
+    name: 'Jose Flores',
+    twitter: 'joseflores_io',
+    about: 'yah',
+  },
+  {
     name: 'Dallas Mavericks',
     twitter: 'dallasmavs',
     about: 'DIIIIIIIIIIIIIIIIIIIIIIIIIIIIRK!',
@@ -37,6 +42,11 @@ const december2017data = [
     about: 'Real football',
   },
   {
+    name: 'Joel Lee',
+    twitter: 'Highflierinvest',
+    about: 'DFW Area Real Estate Investor'
+  },
+  {
     name: 'Connor Bryan',
     twitter: false,
     about: 'Software & music'
@@ -45,6 +55,11 @@ const december2017data = [
     name: 'Howard Huang',
     twitter: null,
     about: 'VS Code!'
+  },
+  {
+    name: 'Maria Bazhlekova',
+    twitter: '',
+    about: 'Board game cruise'
   },
 ];
 
