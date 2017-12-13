@@ -68,7 +68,7 @@ const AttendanceDialog = (props) => {
             return (
               <TableRow key={dev.name}>
                 <TableCell>{dev.name}</TableCell>
-                <TableCell>@{dev.twitter}</TableCell>
+                <TableCell>{dev.twitter ? `@${dev.twitter}` : '—'}</TableCell>
                 <TableCell>{dev.about}</TableCell>
               </TableRow>
             );
