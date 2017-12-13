@@ -51,6 +51,11 @@ const december2017data = [
     twitter: 'mightyjoew',
     about: 'Front-End Developer on a mission to getScript(\'Or Die Tryin\')'
   },
+  {
+    name: 'New York Yankees',
+    twitter: 'NYYankees',
+    about: 'Go Yankees',
+  }
 ];
 
 export default december2017data;
