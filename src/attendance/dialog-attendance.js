@@ -46,7 +46,7 @@ const AttendanceDialog = (props) => {
     >
       <AppBar className={classes.appBar}>
         <Toolbar>
-          <IconButton color="contrast" onClick={this.handleRequestClose} aria-label="Close">
+          <IconButton color="contrast" onClick={onRequestCloseDialog} aria-label="Close">
             <CloseIcon />
           </IconButton>
           <Typography type="title" color="inherit" className={classes.flex}>
