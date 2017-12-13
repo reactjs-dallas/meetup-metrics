@@ -37,6 +37,7 @@ const AttendanceDialog = (props) => {
     onRequestCloseDialog,
   } = props;
 
+
   return (
     <Dialog
       fullScreen
