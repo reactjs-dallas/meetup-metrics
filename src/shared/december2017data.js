@@ -36,6 +36,11 @@ const december2017data = [
     twitter: 'FCDallas',
     about: 'Real football',
   },
+  {
+    name: 'New York Yankees',
+    twitter: 'NYYankees',
+    about: 'Go Yankees',
+  }
 ];
 
 export default december2017data;
