@@ -7,6 +7,11 @@ const december2017data = [
     about: 'Father of three, husband of one, writer of JavaScripts, drinker of coffee'
   },
   {
+    name: 'Giao Nguyen',
+    twitter: 'giaonguyenn',
+    about: 'Full-Stack Developer and Aspiring Unicorn'
+  },
+  {
     name: 'ReactJS Dallas',
     twitter: 'reactjsdallas',
     about: 'We host events and make sure devs get both knowledge and pizza.'
@@ -79,6 +84,11 @@ const december2017data = [
     name: 'Joe Warren',
     twitter: 'mightyjoew',
     about: 'Front-End Developer on a mission to getScript(\'Or Die Tryin\')'
+  },
+  {
+    name: 'New York Yankees',
+    twitter: 'NYYankees',
+    about: 'Go Yankees'
   }
 ];
 
