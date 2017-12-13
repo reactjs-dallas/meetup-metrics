@@ -36,6 +36,11 @@ const december2017data = [
     twitter: 'FCDallas',
     about: 'Real football',
   },
+  {
+    name: 'Howard Huang',
+    twitter: null,
+    about: 'VS Code!'
+  }
 ];
 
 export default december2017data;
