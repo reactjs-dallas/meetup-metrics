@@ -42,6 +42,11 @@ const december2017data = [
     about: 'Real football',
   },
   {
+    name: 'Chris Kee',
+    twitter: 'chriskeephoto',
+    about: 'Guitar!',
+  },
+  {
     name: 'Joel Lee',
     twitter: 'Highflierinvest',
     about: 'DFW Area Real Estate Investor'
