@@ -49,7 +49,7 @@ const december2017data = [
   },
   {
     name: 'Erik Golden',
-    linkedIn: 'www.linkedin.com/in/erikgolden7',
+    linkedIn: 'https://www.linkedin.com/in/erikgolden7',
     about: 'From Utah, moving to Dallas. Wooo! I love to code!!!'
   },
     name: 'Joel Lee',
@@ -60,7 +60,12 @@ const december2017data = [
     name: 'Maria Bazhlekova',
     twitter: '',
     about: 'Board game cruise'
-  }
-]
+  },
+  {
+    name: 'Eric Patterson',
+    linkedin: 'https://www.linkedin.com/in/eric-patterson/',
+    about: 'Like\'s cookin up some code'
+  },
+];
 
 export default december2017data
