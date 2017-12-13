@@ -13,9 +13,14 @@ const december2017data = [
     about: "We host events and make sure devs get both knowledge and pizza."
   },
   {
-    name: "Dallas Mavericks",
-    twitter: "dallasmavs",
-    about: "DIIIIIIIIIIIIIIIIIIIIIIIIIIIIRK!"
+    name: 'Jose Flores',
+    twitter: 'joseflores_io',
+    about: 'yah',
+  },
+  {
+    name: 'Dallas Mavericks',
+    twitter: 'dallasmavs',
+    about: 'DIIIIIIIIIIIIIIIIIIIIIIIIIIIIRK!',
   },
   {
     name: "Dallas Stars",
@@ -46,6 +51,15 @@ const december2017data = [
     name: "Erik Golden",
     linkedIn: "www.linkedin.com/in/erikgolden7",
     about: "From Utah, moving to Dallas. Wooo! I love to code!!!"
+  },
+    name: 'Joel Lee',
+    twitter: 'Highflierinvest',
+    about: 'DFW Area Real Estate Investor'
+  },
+  {
+    name: 'Maria Bazhlekova',
+    twitter: '',
+    about: 'Board game cruise'
   }
 ]
 
