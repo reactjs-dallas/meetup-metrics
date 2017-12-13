@@ -2,9 +2,9 @@
 //  It should be updated by the people who attend the meetup and make a PR to update the file
 const december2017data = [
   {
-    name: 'Mike Mathew',
-    twitter: 'drumsensei',
-    about: 'Father of three, husband of one, writer of JavaScripts, drinker of coffee',
+    name: 'Giao Nguyen',
+    twitter: 'giaonguyenn',
+    about: 'Full-Stack Developer and Aspiring Unicorn',
   },
   {
     name: 'ReactJS Dallas',
