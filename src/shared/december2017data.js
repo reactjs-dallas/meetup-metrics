@@ -14,12 +14,12 @@ const december2017data = [
   {
     name: 'Jose Flores',
     twitter: 'joseflores_io',
-    about: 'yah',
+    about: 'yah'
   },
   {
     name: 'Dallas Mavericks',
     twitter: 'dallasmavs',
-    about: 'DIIIIIIIIIIIIIIIIIIIIIIIIIIIIRK!',
+    about: 'DIIIIIIIIIIIIIIIIIIIIIIIIIIIIRK!'
   },
   {
     name: 'Dallas Stars',
@@ -42,6 +42,16 @@ const december2017data = [
     about: 'Real football'
   },
   {
+    name: 'Chris Kee',
+    twitter: 'chriskeephoto',
+    about: 'Guitar!'
+  },
+  {
+    name: 'Joel Lee',
+    twitter: 'Highflierinvest',
+    about: 'DFW Area Real Estate Investor'
+  },
+  {
     name: 'Connor Bryan',
     twitter: false,
     about: 'Software & music'
@@ -51,9 +61,9 @@ const december2017data = [
     linkedIn: 'https://www.linkedin.com/in/erikgolden7',
     about: 'From Utah, moving to Dallas. Wooo! I love to code!!!'
   },
-    name: 'Joel Lee',
-    twitter: 'Highflierinvest',
-    about: 'DFW Area Real Estate Investor'
+    name: 'Howard Huang',
+    twitter: null,
+    about: 'VS Code!'
   },
   {
     name: 'Maria Bazhlekova',
@@ -65,6 +75,11 @@ const december2017data = [
     linkedin: 'https://www.linkedin.com/in/eric-patterson/',
     about: 'Like\'s cookin up some code'
   },
+  {
+    name: 'Joe Warren',
+    twitter: 'mightyjoew',
+    about: 'Front-End Developer on a mission to getScript(\'Or Die Tryin\')'
+  }
 ];
 
 export default december2017data
