@@ -37,10 +37,15 @@ const december2017data = [
     about: 'Real football',
   },
   {
+    name: 'Connor Bryan',
+    twitter: false,
+    about: 'Software & music'
+  },
+  {
     name: 'Howard Huang',
     twitter: null,
     about: 'VS Code!'
-  }
+  },
 ];
 
 export default december2017data;
