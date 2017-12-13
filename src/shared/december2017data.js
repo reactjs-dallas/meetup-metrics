@@ -4,8 +4,7 @@ const december2017data = [
   {
     name: 'Mike Mathew',
     twitter: 'drumsensei',
-    about:
-      'Father of three, husband of one, writer of JavaScripts, drinker of coffee'
+    about: 'Father of three, husband of one, writer of JavaScripts, drinker of coffee'
   },
   {
     name: 'ReactJS Dallas',
@@ -30,7 +29,7 @@ const december2017data = [
   {
     name: 'Dallas Cowboys',
     twitter: 'dallascowboys',
-    about: 'America's team for American-style football'
+    about: 'America\'s team for American-style football'
   },
   {
     name: 'Texas Rangers',
