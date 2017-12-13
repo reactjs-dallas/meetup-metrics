@@ -61,6 +61,11 @@ const december2017data = [
     linkedin: 'https://www.linkedin.com/in/eric-patterson/',
     about: 'Like\'s cookin up some code'
   },
+  {
+    name: 'Joe Warren',
+    twitter: 'mightyjoew',
+    about: 'Front-End Developer on a mission to getScript(\'Or Die Tryin\')'
+  },
 ];
 
 export default december2017data;
