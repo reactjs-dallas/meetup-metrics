@@ -52,6 +52,11 @@ const december2017data = [
     about: 'Guitar!'
   },
   {
+    name: 'Bryce Hull',
+    twitter: 'BryceHull1',
+    about: 'New to React Js Dallas'
+  },
+  {
     name: 'Joel Lee',
     twitter: 'Highflierinvest',
     about: 'DFW Area Real Estate Investor'
@@ -66,6 +71,7 @@ const december2017data = [
     linkedIn: 'https://www.linkedin.com/in/erikgolden7',
     about: 'From Utah, moving to Dallas. Wooo! I love to code!!!'
   },
+  {
     name: 'Howard Huang',
     twitter: null,
     about: 'VS Code!'
