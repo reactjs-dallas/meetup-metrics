@@ -54,7 +54,7 @@ class Attendance extends Component {
     });
   }
 
-  handleRequestCloseDialog = () => {
+  handleCloseDialog = () => {
     this.setState({
       isOpen: false,
     });
@@ -93,7 +93,7 @@ class Attendance extends Component {
         </div>
         <AttendanceDialog
           isOpen={isOpen}
-          onRequestCloseDialog={this.handleRequestCloseDialog}
+          onCloseDialog={this.handleCloseDialog}
         />
       </section>
     )
