@@ -34,7 +34,7 @@ const AttendanceDialog = (props) => {
   const {
     classes,
     isOpen,
-    onRequestCloseDialog,
+    onCloseDialog,
   } = props;
 
 
@@ -42,12 +42,12 @@ const AttendanceDialog = (props) => {
     <Dialog
       fullScreen
       open={isOpen}
-      onRequestClose={onRequestCloseDialog}
+      onClose={onCloseDialog}
       transition={Transition}
     >
       <AppBar className={classes.appBar}>
         <Toolbar>
-          <IconButton color="contrast" onClick={onRequestCloseDialog} aria-label="Close">
+          <IconButton color="contrast" onClick={onCloseDialog} aria-label="Close">
             <CloseIcon />
           </IconButton>
           <Typography type="title" color="inherit" className={classes.flex}>
