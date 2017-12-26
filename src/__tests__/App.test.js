@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import { shallow } from "enzyme";
 
 // Internal Dependencies
-import App from './App';
+import App from '../App';
 
 // Local Variables
 const app = shallow(<App />);
