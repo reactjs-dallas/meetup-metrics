@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 // Local Dependencies
 import Attendance from './attendance';
-import MembershipTrend from './trend';
+// import MembershipTrend from './trend';
 import TopNav from './top-nav';
 import logo from './logo.svg';
 import './App.css';
@@ -18,7 +18,7 @@ class App extends Component {
     return (
       <div className="app">
         <TopNav />
-        <MembershipTrend />
+        {/* <MembershipTrend /> */}
         <Attendance />
 
         <iframe title="meetup-details" width="250" height="485" src="http://meetu.ps/3fFbyY" frameBorder="0"></iframe>
