@@ -23,11 +23,15 @@ class App extends Component {
           <MembershipTrend />
           <Attendance />
 
-          <iframe title="meetup-details" width="250" height="485" src="http://meetu.ps/3fFbyY" frameBorder="0"></iframe>
+          <section>
+            <a href="https://www.meetup.com/ReactJSDallas/" target="_blank" rel="noreferrer noopener">
+              ReactJS Dallas User Group on meetup.com
+            </a>
+          </section>
 
           <footer className="app-footer">
             <img src={logo} className="app-logo" alt="logo" />
-            <p>A community project of <a href="https://www.call-em-all.com/careers" tabIndex={0}>Call-Em-All</a></p>
+            <p>A community project of <a href="https://www.text-em-all.com/careers" tabIndex={0}>Text-Em-All</a></p>
             <img src={logo} className="app-logo-2" alt="logo" />
           </footer>
         </div>
