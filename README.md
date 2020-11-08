@@ -1,6 +1,6 @@
 # ReactJS Dallas Meetup Metrics
 
-A fun and interactive way to do a roll call of those fancy hipsters from the Dallas React scene. :neckbeard:
+A fun and interactive way to do a roll call of those fancy Texans from the Dallas React scene. :cowboy:
 
 # Installation
 
@@ -10,6 +10,10 @@ When running the project locally, run:
 yarn
 yarn start
 ```
+
+# Contributing
+
+Head over to the [issues page](https://github.com/reactjs-dallas/meetup-metrics/issues) to find some of the features we would like to add and possibly some bugs we need squashed. :pray:
 
 # License
 
