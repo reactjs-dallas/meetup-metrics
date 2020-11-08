@@ -12,44 +12,14 @@ const december2017data = [
     about: 'Full-Stack Developer and Aspiring Unicorn',
   },
   {
-    name: 'ReactJS Dallas',
-    twitter: 'reactjsdallas',
-    about: 'We host events and make sure devs get both knowledge and pizza.',
-  },
-  {
     name: 'Jose Flores',
     twitter: 'joseflores_io',
     about: 'yah',
   },
   {
-    name: 'Dallas Mavericks',
-    twitter: 'dallasmavs',
-    about: 'DIIIIIIIIIIIIIIIIIIIIIIIIIIIIRK!',
-  },
-  {
-    name: 'Dallas Stars',
-    twitter: 'DallasStars',
-    about: 'Hat tricks a plenty',
-  },
-  {
-    name: 'Dallas Cowboys',
-    twitter: 'dallascowboys',
-    about: 'America\'s team for American-style football',
-  },
-  {
-    name: 'Texas Rangers',
-    twitter: 'Rangers',
-    about: 'Bases-ball',
-  },
-  {
-    name: 'FC Dallas',
-    twitter: 'FCDallas',
-    about: 'Real football',
-  }, 
-  {
     name: 'Spencer Smith',
     twitter: 'none',
-    about: 'Also Real football' 
+    about: 'Also Real football'
   },
   {
     name: 'Chris Kee',
@@ -96,11 +66,6 @@ const december2017data = [
     twitter: 'mightyjoew',
     about: 'Front-End Developer on a mission to getScript(\'Or Die Tryin\')',
   },
-  {
-    name: 'New York Yankees',
-    twitter: 'NYYankees',
-    about: 'Go Yankees',
-  }
 ];
 
 export default december2017data
