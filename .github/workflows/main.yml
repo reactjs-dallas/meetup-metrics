@@ -1,0 +1,30 @@
+name: Build and run units tests
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.18]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up and use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+        registry-url: 'https://registry.npmjs.org'
+    - name: Yarn Install
+      run: yarn
+    # - name: Run linter
+    #   run: yarn lint
+    - name: Test build
+      run: yarn build
+    - name: Run unit tests
+      run: yarn test
