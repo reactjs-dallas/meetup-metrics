@@ -1,11 +1,13 @@
 // External Dependencies
 import React, { Component } from 'react';
-import Avatar from 'material-ui/Avatar';
-import Button from 'material-ui/Button';
-import Chip from 'material-ui/Chip';
-import FaceIcon from 'material-ui-icons/Face';
-import grey from 'material-ui/colors/grey';
-import { withStyles } from 'material-ui/styles';
+import {
+  Avatar,
+  Button,
+  Chip,
+} from '@material-ui/core';
+import FaceIcon from '@material-ui/icons/Face';
+import grey from '@material-ui/core/colors/grey';
+import { withStyles } from '@material-ui/core/styles';
 
 // Local Dependencies
 import AttendanceDialog from './dialog-attendance';

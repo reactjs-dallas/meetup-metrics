@@ -1,14 +1,20 @@
 // External Dependencies
 import React from 'react';
-import AppBar from 'material-ui/AppBar';
-import CloseIcon from 'material-ui-icons/Close';
-import Dialog from 'material-ui/Dialog';
-import IconButton from 'material-ui/IconButton';
-import Slide from 'material-ui/transitions/Slide';
-import Table, { TableBody, TableCell, TableHead, TableRow } from 'material-ui/Table';
-import Toolbar from 'material-ui/Toolbar';
-import Typography from 'material-ui/Typography';
-import { withStyles } from 'material-ui/styles';
+import {
+  AppBar,
+  Dialog,
+  IconButton,
+  Slide,
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableRow,
+  Toolbar,
+  Typography,
+} from '@material-ui/core';
+import CloseIcon from '@material-ui/icons/Close';
+import { makeStyles } from '@material-ui/core/styles';
 
 // Local Dependencies
 import december2017data from '../shared/december2017data';
@@ -19,24 +25,22 @@ function Transition(props) {
 }
 
 // Local Variables
-const styles = theme => ({
+const useStyles = makeStyles(theme => ({
   appBar: {
     position: 'relative',
   },
   table: {
     minWidth: 700,
   },
-});
+}));
 
 
 // Component Definition
-const AttendanceDialog = (props) => {
-  const {
-    classes,
-    isOpen,
-    onCloseDialog,
-  } = props;
-
+const AttendanceDialog = ({
+  isOpen,
+  onCloseDialog,
+}) => {
+  const classes = useStyles();
 
   return (
     <Dialog
@@ -79,4 +83,4 @@ const AttendanceDialog = (props) => {
   );
 };
 
-export default withStyles(styles)(AttendanceDialog);
+export default AttendanceDialog;
