@@ -24,8 +24,12 @@ class App extends Component {
           <MembershipTrend />
           <Attendance />
 
-          <section>
-            <a href="https://www.meetup.com/ReactJSDallas/" target="_blank" rel="noreferrer noopener">
+          <section style={{ paddingBottom: 24 }}>
+            <a
+              href="https://www.meetup.com/ReactJSDallas/"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
               ReactJS Dallas User Group on meetup.com
             </a>
           </section>
