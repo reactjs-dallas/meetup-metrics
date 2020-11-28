@@ -32,6 +32,7 @@ const styles = theme => ({
   },
   chip: {
     margin: 6,
+    cursor: 'pointer',
   },
   row: {
     display: 'flex',
@@ -71,16 +72,23 @@ class Attendance extends Component {
         <h1>December 2017 @ Tail Light</h1>
         <div className={classes.row}>
           {december2017data.map(dev => (
-            <Chip
-              avatar={
-                <Avatar>
-                  <FaceIcon className={classes.svgIcon} />
-                </Avatar>
-              }
-              className={classes.chip}
-              key={dev.name}
-              label={dev.name}
-            />
+
+
+            <a href={`https://twitter.com/${dev.twitter}`}
+              target="_blank" rel="noopener noreferrer"
+              key={dev.about} style={{ cursor: 'auto' }}>
+              <Chip
+                avatar={
+                  <Avatar>
+                    <FaceIcon className={classes.svgIcon} />
+                  </Avatar>
+                }
+                className={classes.chip}
+                key={dev.name}
+                label={dev.name}
+              />
+
+            </a>
           ))}
         </div>
         <div className={classes.row}>

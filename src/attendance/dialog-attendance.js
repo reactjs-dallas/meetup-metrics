@@ -32,6 +32,9 @@ const useStyles = makeStyles(theme => ({
   table: {
     minWidth: 700,
   },
+  a: {
+    textDecoration: 'none',
+  }
 }));
 
 
@@ -72,7 +75,21 @@ const AttendanceDialog = ({
             return (
               <TableRow key={dev.name}>
                 <TableCell>{dev.name}</TableCell>
-                <TableCell>{dev.twitter ? `@${dev.twitter}` : '—'}</TableCell>
+                {
+                  dev.twitter ?
+
+                    <TableCell>
+                      <a href={`https://twitter.com/${dev.twitter}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={classes.a}
+                      >
+                        {`@${dev.twitter}`}
+                      </a>
+                    </TableCell> :
+
+                    <TableCell>{`-`}</TableCell>
+                }
                 <TableCell>{dev.about}</TableCell>
               </TableRow>
             );
